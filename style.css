@@ -1,0 +1,51 @@
+body {
+  background: #ff981a;
+  background: -moz-linear-gradient(top, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff981a), color-stop(9%, #ffe8cc), color-stop(21%, #ffffff));
+  background: -webkit-linear-gradient(top, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
+  background: -o-linear-gradient(top, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
+  background: -ms-linear-gradient(top, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
+  background: linear-gradient(to bottom, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff981a', endColorstr='#fff4e6', GradientType=0 );
+}
+
+.word {
+  color:black;
+}
+
+#logo{
+  position: relative;
+  left: -1.4%;
+  height: 118px;
+  width: auto;
+  margin: 20 0 0 0;
+}
+
+.topnav {
+    background-color: #f7f3c3;
+    overflow: hidden;
+    height: 30px;
+}
+
+.topnav a {
+    color: #006633;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    border-left: 1px solid #bbbbbb;
+    line-height: 30px;
+}
+
+.topnav a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+.topnav a.active {
+    color: #bbbbbb;
+}
+
+.topnav a:last-child {
+  border-right: 1px solid #bbbbbb;
+}
