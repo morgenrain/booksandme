@@ -1,51 +1,65 @@
-body {
+.top {
   background: #ff981a;
-  background: -moz-linear-gradient(top, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff981a), color-stop(9%, #ffe8cc), color-stop(21%, #ffffff));
-  background: -webkit-linear-gradient(top, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
-  background: -o-linear-gradient(top, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
-  background: -ms-linear-gradient(top, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
-  background: linear-gradient(to bottom, #ff981a 0%, #ffe8cc 9%, #ffffff 21%);
+  background: -moz-linear-gradient(top, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff981a), color-stop(60%, #ffe8cc), color-stop(100%, #fff4e6));
+  background: -webkit-linear-gradient(top, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
+  background: -o-linear-gradient(top, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
+  background: -ms-linear-gradient(top, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
+  background: linear-gradient(to bottom, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff981a', endColorstr='#fff4e6', GradientType=0 );
+
 }
 
-.word {
-  color:black;
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  margin:0px;
+  background-color: #fff4e6;
 }
 
 #logo{
   position: relative;
   left: -1.4%;
-  height: 118px;
+  height: 120px;
   width: auto;
   margin: 20 0 0 0;
 }
 
-.topnav {
-    background-color: #f7f3c3;
-    overflow: hidden;
-    height: 30px;
+.sidenav {
+    height: 90%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    left: 0px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-top: 20px solid;
+    border-color: #ff981a;
+    background-color: white;
 }
 
-.topnav a {
-    color: #006633;
-    text-align: center;
-    padding: 14px 16px;
+.sidenav a {
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 18px;
-    border-left: 1px solid #bbbbbb;
-    line-height: 30px;
+    font-size: 20px;
+    color: #006633;
+    display: block;
+    text-align: left;
 }
 
-.topnav a:hover {
-    background-color: lightpink;
-    color: black;
+.sidenav a:hover {
+    color: #064579;
 }
 
-.topnav a.active {
+.sidenav a.active {
     color: #bbbbbb;
 }
 
-.topnav a:last-child {
-  border-right: 1px solid #bbbbbb;
-}
+
+
+.foot
