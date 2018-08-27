@@ -1,10 +1,6 @@
-.main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-}
+/* slides */
 
-.mySlides {
+.slides {
   display: none;
 }
 
@@ -42,34 +38,6 @@ img {
   .text {font-size: 11px}
 }
 
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 .caption{
   text-align: center;
   background-color: #222;
@@ -78,25 +46,17 @@ img {
   opacity: 0.8;
 }
 
+/* sections */
+
 .map {
   height: 250px;
 }
 
-.border {
-  border-top: 20px solid;
-  border-color: #ff981a;
-  background-color: white;
-  padding: 20px;
-}
 
 .info {
   margin: auto;
   width: 100%;
   height: auto;
-  /* display: -webkit-box;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box; */
   display: -webkit-flex;
   display: flex;
 }
@@ -107,4 +67,8 @@ img {
 
 .break {
   padding: 1%;
+}
+
+.foot {
+  text-align: center;
 }

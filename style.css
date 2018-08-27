@@ -1,24 +1,45 @@
 .top {
   background: #ff981a;
-  background: -moz-linear-gradient(top, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff981a), color-stop(60%, #ffe8cc), color-stop(100%, #fff4e6));
-  background: -webkit-linear-gradient(top, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
-  background: -o-linear-gradient(top, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
-  background: -ms-linear-gradient(top, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
-  background: linear-gradient(to bottom, #ff981a 0%, #ffe8cc 60%, #fff4e6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff981a', endColorstr='#fff4e6', GradientType=0 );
+  background: -moz-linear-gradient(top, #ff981a 0%, #ffe8cc 80%, #fff2e5 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff981a), color-stop(80%, #ffe8cc), color-stop(100%, #fff2e5));
+  background: -webkit-linear-gradient(top, #ff981a 0%, #ffe8cc 80%, #fff2e5 100%);
+  background: -o-linear-gradient(top, #ff981a 0%, #ffe8cc 80%, #fff2e5 100%);
+  background: -ms-linear-gradient(top, #ff981a 0%, #ffe8cc 80%, #fff2e5 100%);
+  background: linear-gradient(to bottom, #ff981a 0%, #ffe8cc 80%, #fff2e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff981a', endColorstr='#fff2e5', GradientType=0 );
 
 }
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Overlock', cursive;
   box-sizing: border-box;
   font-size: 18px;
 }
 
+h1 {
+  font-family: 'Bad Script', cursive;
+  font-size: 36px;
+  margin: 0px;
+}
+
+
+.border {
+  border-top: 20px solid;
+  border-color: #ff981a;
+  background-color: white;
+  padding: 16px;
+  margin: 15px;
+}
+
 body {
   margin:0px;
-  background-color: #fff4e6;
+  background-color: #fff2e5;
+}
+
+.main {
+    margin-left: 150px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
 }
 
 #logo{
@@ -31,7 +52,7 @@ body {
 
 .sidenav {
     height: 90%;
-    width: 120px;
+    width: 140px;
     position: fixed;
     z-index: 1;
     top: 40px;
@@ -60,6 +81,24 @@ body {
     color: #bbbbbb;
 }
 
+button {
+  background:none!important;
+  border:none;
+  font: inherit;
+  cursor: pointer;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #006633;
+  display: block;
+  text-align: left;
+}
+
+button:focus {
+  outline: none;
+}
 
 
-.foot
+foot {
+  padding: auto;
+}
