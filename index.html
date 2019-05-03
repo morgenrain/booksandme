@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!DOCTYPE HTML>
 <html>
   <head>
     <title>Books &amp; Me Children's Chinese Library</title>
@@ -6,7 +6,7 @@
     content="text/html; charset=ISO-8859-1">
     <!-- <base href="http://www.booksandme.org/"> -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="index_eng.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,25 +21,31 @@
         <div class="sidenav">
           <a href="index_chinese.html">Chinese</a></p>
           <a class="active">Home</a>
-          <button href="" onclick="showServices()">Library Services</button>
-          <div id="services">
+          <button href="" onclick="showActivities()">Activities</button>
+          <div id="activities">
             <a href="classes.html"> | Classes</a>
             <a href=""> | Others</a>
           </div>
-          <a href="">Book List</a>
-          <a href="zcf_eng.html">About ZCF</a>
-          <a href="">Support ZCF</a>
+          <a href="">Library Services</a>
+          <a href="">Book Collection</a>
+          <button href="" onclick="showZCF()">ZCF</button>
+          <div id="zcf">
+            <a href="zcf_eng.html">| About</a>
+            <a href="">| Support</a>
+          </div>
           <a href="">FAQ</a>
+          <a href="intro.html">New members - click here</a></p>
+          <a href="">Contact Us</a>
       </div>
 <!-- End sidenav -->
 <!-- Start slideshow -->
   <div class="slideshow-container">
-    <div class="slides">
+    <!-- <div class="slides"> -->
       <div class="numbertext">1 / 3</div>
       <img src="images/logo.gif" style="width:100%">
       <div class="caption" style="text-align: center">2018 Fall Classes Registration Starts Now</div>
-    </div>
-    <div class="slides">
+    <!-- </div> -->
+    <!-- <div class="slides">
       <div class="numbertext">2 / 3</div>
       <img src="images/temp5.jpg" style="width:100%">
       <div class="caption" style="text-align: center">Caption Two</div>
@@ -48,12 +54,17 @@
       <div class="numbertext">3 / 3</div>
       <img src="images/location.gif" style="width:100%">
       <div class="caption" style="text-align: center">Caption Three</div>
-    </div>
+    </div> -->
   </div>
  <!-- End slideshow -->
-  <br>
 <!-- Start main -->
   <div class="main">
+
+    <div class="border">
+      <p>Books and Me Children's Chinese Library is a Children's library that aggregates Chinese books, software and other media for young children. We also offer FREE Mandarin Story Time on Tuesdays and Saturdays. Art, preschool Chinese, Cantonese, abacus, and math classes are taught in Mandarin with a fee to facilitate a Chinese immersion environment. </p>
+    </div>
+
+
 <!-- Start news and events -->
     <div class="newsEvents border">
       <h1>News & Events</h1>
@@ -64,70 +75,51 @@
     </div>
 
 <!-- End news and events -->
-<!-- Start info -->
-    <div class="info">
-      <div class="left">
-<!-- Start hours -->
-        <div class="hours border">
-          <h1>Library Hours: </h1>
-          <table width="300" border="0">
-                <tbody>
-                  <tr>
-                    <td width="50%" bgcolor="#f7f3c3">Monday:</td>
-                    <td bgcolor="#f7f3c3">10am-3pm</td>
-                  </tr>
-                  <tr>
-                    <td>Tuesday:</td>
-                    <td>10am-3pm</td>
-                  </tr>
-                  <tr>
-                    <td bgcolor="#f7f3c3">Wednesday:</td>
-                    <td bgcolor="#f7f3c3">10am-3pm</td>
-                  </tr>
-                  <tr>
-                    <td>Thursday:</td>
-                    <td>10am-3pm</td>
-                  </tr>
-                  <tr>
-                    <td bgcolor="#f7f3c3">Friday:</td>
-                    <td bgcolor="#f7f3c3">11am-3pm</td>
-                  </tr>
-                  <tr>
-                    <td>Saturday:</td>
-                    <td>10am-5pm</td>
-                  </tr>
-                  <tr>
-                    <td bgcolor="#f7f3c3">Sunday:</td>
-                    <td bgcolor="#f7f3c3">closed</td>
-                  </tr>
-                </tbody>
-              </table>
+  <div class = "row">
+<!-- Start activities -->
+  <div class="activities border">
+    <h1>Activities</h1>
+    <p><a href="classes.html">2019 Spring Classes</a></p>
+      <div class = "slideshow-container">
+        <div class="slides">
+          <div class="numbertext">1</div>
+          <img src="images/bookCollection.gif" style="width:100%">
+          <div class="caption" style="text-align: center">Class 1</div>
         </div>
-<!-- End hours -->
-        <div class="break"></div>
-<!-- Start contact -->
-        <div class="contact border">
-          <h1>Contact: </h1>
-          <p>Tel: 650-941-4379</p>
-          <p>Email: <a href=mailto:info@zhaoyu.org>librarian@zhaoyu.org</a>
+        <div class="slides">
+          <div class="numbertext">2</div>
+          <img src="images/libraryInfo.gif" style="width:100%">
+          <div class="caption" style="text-align: center">Class 2</div>
         </div>
-<!-- End contact -->
+        <div class="slides">
+          <div class="numbertext">3</div>
+          <img src="images/newsEvents.gif" style="width:100%">
+          <div class="caption" style="text-align: center">Class 3</div>
+        </div>
       </div>
-<!-- Start location -->
-      <div class="location border">
-        <h1>Location: </h1>
-        <p>Books &amp; Me is conveniently located at the border
-of Los Altos and Mountain View</p>
-        <p> at the intersection of El Camino Real and San Antonio Road: </p>
-        <p> <a
-         href="http://maps.google.com/maps?q=4600+El+Camino+Real,+Los+Altos,+CA+94022,+USA&amp;ie=UTF8&amp;ll=37.404119,-122.113638&amp;spn=0.031568,0.051584&amp;z=14&amp;iwloc=addr&amp;om=1"
-         target="new"> 4600 El Camino Real, Suite 205, Los Altos, CA 94022</a></p>
-         <img class="map" src = "images/location.gif">
-      </div>
-<!-- End location -->
-    </div>
-<!-- End info -->
+      <!-- End Classes -->
+      <p>Story time</p>
   </div>
+    <!-- End activities -->
+    <!-- Start library services -->
+      <div class="services border">
+        <h1>Library Services</h1>
+        <ul>
+          <li>member</li>
+          <li>check in</li>
+          <li>check out</li>
+          <li>library policies</li>
+          <li>terms of use</li>
+        </ul>
+      </div>
+    <!-- End library servicies -->
+    </div>
+    <div class="collection border">
+      <h1>Library Theme:</h1>
+      <h3>Theme: Self-awareness</h3>
+      <p>Suggested reading list</p>
+    </div>
+</div>
 <!-- End main -->
   <script src="script.js"></script>
   </body>

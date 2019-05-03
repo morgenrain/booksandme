@@ -48,27 +48,23 @@ img {
 
 /* sections */
 
-.map {
-  height: 250px;
-}
-
-
-.info {
-  margin: auto;
-  width: 100%;
-  height: auto;
-  display: -webkit-flex;
-  display: flex;
-}
-
 .left {
+  width: 100%;
+  display: inline-flex;
+}
+
+.hours {
   flex: 1;
+}
+
+.contact {
+  flex: 1;
+}
+
+.map {
+  height: 50%;
 }
 
 .break {
   padding: 1%;
-}
-
-.foot {
-  text-align: center;
 }

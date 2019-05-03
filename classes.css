@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+.description td {
+  padding: 3%;
+}
+
+.description tr:nth-child(even){
+  background-color: #f7f3c3;
+}
+
+.intro {
+  text-align: center;
+  background-color: #f7f3c3;
+}
+
+.intro td {
+  padding: 1%;
+}
+
+.row1 td:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.row2 td:nth-child(odd) {
+  background-color: #ffffff;
+}

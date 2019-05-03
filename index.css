@@ -1,0 +1,74 @@
+/* slides */
+
+.slides {
+  display: none;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40%;
+  position: relative;
+  margin: 20px auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.caption{
+  text-align: center;
+  background-color: #222;
+  padding: 5% 3%;
+  color: white;
+  opacity: 0.8;
+}
+
+/* sections */
+
+.row {
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.newsEvents {
+  flex: 1.5;
+}
+
+.activities{
+  flex: 1;
+}
+
+.classes{
+  flex: 1;
+}
+
+.services{
+  flex: 1;
+}
+
+.foot {
+  text-align: center;
+}

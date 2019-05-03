@@ -1,6 +1,6 @@
 var slideIndex = 0;
 showSlides();
-window.onload = hide();
+document.onload = hide();
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -20,11 +20,22 @@ function showSlides() {
 }
 
 function hide() {
-  document.getElementById("services").style.display = 'none';
+  document.getElementById("activities").style.display = 'none';
+  document.getElementById("zcf").style.display = 'none';
 };
 
-function showServices() {
-    var x = document.getElementById("services");
+function showActivities() {
+    var x = document.getElementById("activities");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        x.scrollIntoView()
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function showZCF() {
+    var x = document.getElementById("zcf");
     if (x.style.display === "none") {
         x.style.display = "block";
         x.scrollIntoView()

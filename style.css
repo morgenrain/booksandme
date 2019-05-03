@@ -7,13 +7,17 @@
   background: -ms-linear-gradient(top, #ff981a 0%, #ffe8cc 80%, #fff2e5 100%);
   background: linear-gradient(to bottom, #ff981a 0%, #ffe8cc 80%, #fff2e5 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff981a', endColorstr='#fff2e5', GradientType=0 );
-
+  padding-top: 1.4%;
 }
 
 * {
   font-family: 'Overlock', cursive;
   box-sizing: border-box;
   font-size: 18px;
+}
+
+div {
+    display: block;
 }
 
 h1 {
@@ -27,17 +31,17 @@ h1 {
   border-top: 20px solid;
   border-color: #ff981a;
   background-color: white;
-  padding: 16px;
-  margin: 15px;
+  padding: 2.4%;
+  margin: 2.4%;
 }
 
 body {
-  margin:0px;
+  margin: 0;
   background-color: #fff2e5;
 }
 
 .main {
-    margin-left: 150px; /* Same width as the sidebar + left position in px */
+    margin-left: 11.5%; /* Same width as the sidebar + left position in px */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
@@ -51,11 +55,11 @@ body {
 }
 
 .sidenav {
-    height: 90%;
-    width: 140px;
+    height: 92%;
+    width:11.5%;
     position: fixed;
     z-index: 1;
-    top: 40px;
+    top: 4%;
     left: 0px;
     overflow-x: hidden;
     padding: 8px 0;
